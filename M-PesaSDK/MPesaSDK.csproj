@@ -2,6 +2,20 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Authors>Timothy Maina</Authors>
+    <Company>Neon Clouds</Company>
+    <Description>M-Pesa SDK is a client for Safaricom APIs allowing access to the products API endpoints for M-Pesa Services. Some of the APIs handled in this SDK include; B2B, B2C, and C2B. The SDK is built on .NET Standard meaning that it can work with dotnet core, .NET Framework, Android, iOS and mono.</Description>
+    <Copyright>© 2017</Copyright>
+    <PackageLicenseUrl>https://github.com/devTimmy/M-PesaSDK/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/devTimmy/M-PesaSDK/blob/master/LICENSE</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/devTimmy/M-PesaSDK/blob/master/LICENSE</RepositoryUrl>
+    <PackageTags>m-pesa, sdk, safaricom api</PackageTags>
+    <PackageIconUrl>https://devtimmystorage.blob.core.windows.net/files/MPesaSDK-Icon.png</PackageIconUrl>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netstandard2.0\docs.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
